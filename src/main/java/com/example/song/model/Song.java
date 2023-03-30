@@ -12,7 +12,7 @@ package com.example.song.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name="song")
+@Table(name="playlist")
 public class Song{
     @Id
     @Column(name="songid")
